@@ -1,0 +1,27 @@
+name: am_musicplayer
+description: Professional Music Player App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  on_audio_query: ^2.9.0
+  provider: ^6.1.1
+  flutter_animate: ^4.5.0
+  font_awesome_flutter: ^10.7.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/music/
